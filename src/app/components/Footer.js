@@ -1,9 +1,10 @@
+import { Typography } from 'antd';
 import React from 'react';
 
 
 
 export default function Footer (){
-  return <div style={footerStyle}>Footer</div>;
+  return <Typography style={footerStyle}>Zurich 2024</Typography>;
 };
 
 

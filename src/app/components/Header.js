@@ -1,8 +1,9 @@
+import { Typography } from 'antd';
 import React from 'react';
 
 
 export default function Header(){
-  return <div style={headerStyle}>Zurich Customer Portal</div>;
+  return <Typography style={headerStyle}>Zurich Customer Portal</Typography>;
 };
 
 const headerStyle = {
